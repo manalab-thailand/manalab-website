@@ -27,11 +27,17 @@
                 .container {
                     margin-top: 100px;
                 }
+                b {
+                    color: rgb(255, 255, 255);
+                }
                 a:hover {
                     color: rgb(255, 0, 0);
                 }
-                b {
+                c{
                     color: rgb(255, 255, 255);
+                }
+                c:hover {
+                    color: rgb(0, 140, 255);
                 }
             </style>
    </head>
@@ -89,21 +95,18 @@
     <main>
         <!--? slider Area Start-->
         <div class="slider-area">
-
             <!--? Professional Services Start -->
             <div class="section-bg d-md-block" style="background-color: #14151a;">
-
                 <!-- <div class="profession-caption"> -->
                 <div class="container">
-                    
+                    <!-- Tittle Page -->
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-10">
-                            <h2><a href="vdo.html" style="color: rgb(0, 174, 255);">VDO</a></h2>
+                            <h2 style="color: rgb(0, 174, 255);">VDO</h2>
                         </div>
                     </div>
-
+                    <!-- VDO 1 -->
                     <div class="row">
-
                         <div class="col-12 mb-3">
                             <div class="row">
                                 <div class="col-12 col-md-5">
@@ -122,7 +125,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        <!-- VDO 2 -->
                         <div class="col-12 mb-3">
                             <div class="row">
                                 <div class="col-12 col-md-5">
@@ -143,7 +146,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+                        <!-- VDO 3 -->
                         <div class="col-12 mb-3">
                             <div class="row">
                                 <div class="col-12 col-md-5">
@@ -163,7 +166,7 @@
                                 </div>
                             </div>
                         </div>
-
+                        <!-- VDO 4 -->
                         <div class="col-12 mb-3">
                             <div class="row">
                                 <div class="col-12 col-md-5">
@@ -177,7 +180,6 @@
                                     <h5> CONTENT: <b><a href="https://www.youtube.com/watch?v=gm2RCfjXS3s">Tutoriel Bootstrap - Apprendre et comprendre Bootstrap rapidement - [FR]</a></b></h5>
                                     </p>
                                     <p>
-                                        
                                     <h6 class="textContainer_Truncate"> EXPLANATION: Dans cette vidéo, qui est une suite logique aux tutoriels sur le HTML et CSS, nous allons 
                                         aborder Bootstrap, le framework css développé par Twitter et qui permet de réaliser des sites responsives de manière simple et pratique
                                         Dans cette vidéo, qui est une suite logique aux tutoriels sur le HTML et CSS, nous allons 
@@ -187,14 +189,10 @@
                                         Dans cette vidéo, qui est une suite logique aux tutoriels sur le HTML et CSS, nous allons 
                                         aborder Bootstrap, le framework css développé par Twitter et qui permet de réaliser des sites responsives de manière simple et pratique</h6>
                                     </p>
-
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-
                 </div>
             </div>
             <!-- Professional Services End -->
@@ -262,8 +260,8 @@
                         <div class="col-xl-9 col-lg-8">
                             <div class="footer-copy-right">
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4">
@@ -318,33 +316,36 @@
         
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
-        <script src="./assets/js/main.js"></script>      
+        <script src="./assets/js/main.js"></script>     
+
+        <!-- show and hide Text -->
+        <script>
+                $(document).ready(function () {
+                var maxheight=38;
+                var showText = "MORE";
+                var hideText = "LESS";
+                $('.textContainer_Truncate').each(function () {
+                    var text = $(this);
+                    if (text.height() > maxheight){
+                        text.css({ 'overflow': 'hidden','height': maxheight + 'px' });
+                        var link = $('<c href="#" style="font-weight: bold">' + showText + '</c>');
+                        var linkDiv = $('<div class="text-right"></div>');
+                        linkDiv.append(link);
+                        $(this).after(linkDiv);
+                        link.click(function (event) {
+                            event.preventDefault();
+                            if (text.height() > maxheight) {
+                                $(this).html(showText);
+                            text.css('height', maxheight + 'px');
+                        } else {
+                            $(this).html(hideText);
+                            text.css('height', 'auto');
+                        }
+                    });
+                }       
+              });
+           });
+        </script>
     </body>
-    <script>
-            $(document).ready(function () {
-            var maxheight=38;
-            var showText = "MORE";
-            var hideText = "LESS";
-            $('.textContainer_Truncate').each(function () {
-                var text = $(this);
-                if (text.height() > maxheight){
-                    text.css({ 'overflow': 'hidden','height': maxheight + 'px' });
-                    var link = $('<a href="#" style="font-weight: bold">' + showText + '</a>');
-                    var linkDiv = $('<div class="text-right"></div>');
-                    linkDiv.append(link);
-                    $(this).after(linkDiv);
-                    link.click(function (event) {
-                        event.preventDefault();
-                        if (text.height() > maxheight) {
-                            $(this).html(showText);
-                        text.css('height', maxheight + 'px');
-                    } else {
-                        $(this).html(hideText);
-                        text.css('height', 'auto');
-                    }
-                });
-            }       
-          });
-       });
-    </script>
+
 </html>
