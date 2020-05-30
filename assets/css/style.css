@@ -111,7 +111,7 @@
 /* line 57, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_variables.scss */
 .boxed-btn {
   background: #fff;
-  color: #ff1313 !important;
+  color: #1366ff !important;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Barlow Condensed", sans-serif;
@@ -3410,7 +3410,7 @@ hero-btn {
 /* line 170, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #ff1313;
+  color: #499ce4;
 }
 
 /* line 174, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
