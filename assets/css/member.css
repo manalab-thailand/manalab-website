@@ -38,6 +38,23 @@
     }
     }
 
+    @media (max-width: 575px) {
+        /* line 789, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+        .Member-padding {
+            padding-top: 65px;
+        }
+        }
+
+    .Position{
+        justify-content: left;
+    }
+
+    @media (max-width: 990px) {
+        .Position{
+            justify-content: center;
+        }
+    }
+
     .btnm {
     background: #ffffff;
     padding-left: 10px;
@@ -86,9 +103,6 @@
 
     .titleM {
     font-size: 72px;
-    }
-
-    .profileimg {
     }
 
     .name{
