@@ -4089,7 +4089,7 @@ hero-btn {
   left: -46px;
   top: 50%;
   transform: translateY(-50%);
-  background: #ff1313;
+  background: #499ce4;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
@@ -4135,7 +4135,7 @@ hero-btn {
 
 /* line 68, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
 .services-area .single-services:hover .services-caption {
-  background: #ff1313;
+  background: #499ce4;
   transform: translateY(-40px);
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
