@@ -3493,6 +3493,13 @@ hero-btn {
   z-index: 9;
 }
 
+
+.slider-area3 {
+  background-image: url(../img/hero/contact2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* line 37, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area2 {
   background-image: url(../img/hero/contact2.jpg);
@@ -3654,6 +3661,13 @@ hero-btn {
   background-repeat: no-repeat;
 }
 
+.slider-area3 .hero-cap h2 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1;
+}
 /* line 161, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area2 .hero-cap h2 {
   color: #fff;
@@ -3669,12 +3683,43 @@ hero-btn {
     font-size: 50px;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 161, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
+  .slider-area3 .hero-cap h2 {
+    font-size: 50px;
+  }
+}
 
 @media (max-width: 575px) {
   /* line 161, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-area2 .hero-cap h2 {
     font-size: 35px;
   }
+}
+@media (max-width: 575px) {
+  /* line 161, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
+  .slider-area3 .hero-cap h2 {
+    font-size: 35px;
+  }
+}
+
+
+.slider-area3 .hero-cap .breadcrumb {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.slider-area3 .hero-cap .breadcrumb a {
+  color: #dcdcdc;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+
+.slider-area3 .hero-cap .breadcrumb-item + .breadcrumb-item::before {
+  color: #dcdcdc;
 }
 
 /* line 174, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
@@ -3822,9 +3867,25 @@ hero-btn {
 .our-info-area .single-info .info-caption {
   position: relative;
 }
+/*Modify our-into-area*/
+.our-info-area .single-info .info-caption1 {
+  position: relative;
+}
 
 /* line 7, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
 .our-info-area .single-info .info-caption::before {
+  position: absolute;
+  content: "";
+  width: 70px;
+  height: 100px;
+  border: 2px solid #292c32;
+  left: 0;
+  z-index: 0;
+  top: -24px;
+}
+
+/*Modify before*/
+.our-info-area .single-info .info-caption1::before {
   position: absolute;
   content: "";
   width: 70px;
@@ -3848,10 +3909,35 @@ hero-btn {
   font-family: "Barlow", sans-serif;
 }
 
+/*Modify font h4*/
+.our-info-area .single-info .info-caption1 h4 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding-left: 20px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 15px;
+  font-family: "Barlow", sans-serif;
+}
+
 /* line 29, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
 .our-info-area .single-info .info-caption p {
   color: #a1a1a1;
   font-size: 14px;
+  margin-bottom: 0px;
+  display: block;
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 93px;
+  line-height: 1.4;
+}
+
+/*Modify font p*/
+.our-info-area .single-info .info-caption1 p {
+  color: #a1a1a1;
+  font-size: 18px;
   margin-bottom: 0px;
   display: block;
   font-weight: 300;
