@@ -1,4 +1,4 @@
-.Member-padding {
+    .Member-padding {
     padding-top: 195px;
     padding-bottom: 40px;
     }
@@ -27,32 +27,32 @@
     @media only screen and (min-width: 576px) and (max-width: 767px) {
     /* line 789, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
     .Member-padding {
-        padding-top: 65px;
+        padding-top: 95px;
     }
     }
 
     @media (max-width: 575px) {
     /* line 789, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
     .Member-padding {
-        padding-top: 65px;
+        padding-top: 85px;
     }
     }
 
     @media (max-width: 575px) {
-        /* line 789, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
-        .Member-padding {
-            padding-top: 65px;
-        }
-        }
+    /* line 789, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
+    .Member-padding {
+        padding-top: 95px;
+    }
+    }
 
-    .Position{
-        justify-content: left;
+    .Position {
+    justify-content: left;
     }
 
     @media (max-width: 990px) {
-        .Position{
-            justify-content: center;
-        }
+    .Position {
+        justify-content: center;
+    }
     }
 
     .btnm {
@@ -105,8 +105,16 @@
     font-size: 72px;
     }
 
-    .name{
-        color: black;
+    .titleH {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#499ce4, #20dddb);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    }
+
+    .name {
+    color: black;
     }
 
     .our-team {
@@ -210,3 +218,9 @@
     color: #1369ce;
     background-color: #f7f5ec;
     }
+
+    /* .Professor_Area {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    } */
