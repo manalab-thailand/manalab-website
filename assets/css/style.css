@@ -41,12 +41,12 @@
 /*-- Background color---*/
 /* line 74, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_color.scss */
 .section-bg1 {
-  background: #13151b;
+  background: #ffffff;
 }
 
 /* line 78, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_color.scss */
 .gray-bg {
-  background: #f7f7fd;
+  background: #ffffff;
 }
 
 /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_color.scss */
@@ -3890,7 +3890,6 @@ hero-btn {
   content: "";
   width: 70px;
   height: 100px;
-  border: 2px solid #292c32;
   left: 0;
   z-index: 0;
   top: -24px;
@@ -3912,7 +3911,7 @@ hero-btn {
 /*Modify font h4*/
 .our-info-area .single-info .info-caption1 h4 {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
   margin-bottom: 0;
   padding-left: 20px;
@@ -3936,14 +3935,14 @@ hero-btn {
 
 /*Modify font p*/
 .our-info-area .single-info .info-caption1 p {
-  color: #a1a1a1;
-  font-size: 18px;
+  color: #ffffff;
+  font-size: 20px;
   margin-bottom: 0px;
   display: block;
   font-weight: 300;
-  font-style: italic;
   padding-left: 93px;
   line-height: 1.4;
+  margin-top: 50px;
 }
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_professional-service.scss */
