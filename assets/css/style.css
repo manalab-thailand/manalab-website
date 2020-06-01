@@ -3493,7 +3493,6 @@ hero-btn {
   z-index: 9;
 }
 
-
 .slider-area3 {
   background-image: url(../img/hero/contact2.jpg);
   background-repeat: no-repeat;
@@ -3703,20 +3702,17 @@ hero-btn {
   }
 }
 
-
 .slider-area3 .hero-cap .breadcrumb {
   background: none;
   padding: 0;
   margin: 0;
 }
 
-
 .slider-area3 .hero-cap .breadcrumb a {
   color: #dcdcdc;
   font-size: 18px;
   text-transform: capitalize;
 }
-
 
 .slider-area3 .hero-cap .breadcrumb-item + .breadcrumb-item::before {
   color: #dcdcdc;
@@ -5104,7 +5100,7 @@ hero-btn {
 /* line 129, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 .blog_area a:hover,
 .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #ff1313 0%, #ff1313 99%);
+  background: -webkit-linear-gradient(131deg, #a0a0a0 0%, #a0a0a0 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;

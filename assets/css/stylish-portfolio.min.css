@@ -1,4 +1,4 @@
-/*!
+ผ/*!
  * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
@@ -314,7 +314,6 @@ a:hover {
 }
 .btn {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  font-weight: 700;
 }
 .bg-primary {
   background-color: #1d809f !important;
