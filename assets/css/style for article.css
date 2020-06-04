@@ -449,7 +449,7 @@ hr {
 
 /* line 173, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 .section-padding {
-  padding-top: 120px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -3467,28 +3467,28 @@ hero-btn {
 
 /* line 17, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-height2 {
-  height: 500px;
+  height: 100px;
   background-size: cover;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 17, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height2 {
-    height: 350px;
+    height: 100px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 17, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height2 {
-    height: 260px;
+    height: 100px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 17, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_h1-hero.scss */
   .slider-height2 {
-    height: 260px;
+    height: 100px;
   }
 }
 
@@ -3500,7 +3500,6 @@ hero-btn {
   left: 0;
   z-index: 9;
 }
-
 
 .slider-area3 {
   background-image: url(../img/hero/contact2.jpg);
@@ -3711,20 +3710,17 @@ hero-btn {
   }
 }
 
-
 .slider-area3 .hero-cap .breadcrumb {
   background: none;
   padding: 0;
   margin: 0;
 }
 
-
 .slider-area3 .hero-cap .breadcrumb a {
   color: #dcdcdc;
   font-size: 18px;
   text-transform: capitalize;
 }
-
 
 .slider-area3 .hero-cap .breadcrumb-item + .breadcrumb-item::before {
   color: #dcdcdc;
@@ -5111,7 +5107,7 @@ hero-btn {
 /* line 129, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 .blog_area a:hover,
 .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #ff1313 0%, #ff1313 99%);
+  background: -webkit-linear-gradient(131deg, #0087FF 0%, #0087FF 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5639,7 +5635,7 @@ hero-btn {
 
 /* line 659, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 .blog_details a:hover {
-  color: #ff1313;
+  color: #0087FF;
 }
 
 /* line 664, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5707,7 +5703,7 @@ hero-btn {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #ff1313;
+  background-color: #499ce4;
   padding: 8px 15px;
   border-radius: 5px;
 }
