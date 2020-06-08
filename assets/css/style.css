@@ -5076,7 +5076,7 @@ hero-btn {
 /* line 129, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 .blog_area a:hover,
 .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #ff1313 0%, #ff1313 99%);
+  background: -webkit-linear-gradient(131deg, #0087FF 0%, #0087FF 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5604,7 +5604,7 @@ hero-btn {
 
 /* line 659, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
 .blog_details a:hover {
-  color: #ff1313;
+  color: #499ce4;
 }
 
 /* line 664, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_blog_page.scss */
@@ -5672,7 +5672,7 @@ hero-btn {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #ff1313;
+  background-color: #499ce4;
   padding: 8px 15px;
   border-radius: 5px;
 }
