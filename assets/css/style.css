@@ -3875,10 +3875,7 @@ hero-btn {
 .our-info-area .single-info .info-caption {
   position: relative;
 }
-/*Modify our-into-area*/
-.our-info-area .single-info .info-caption1 {
-  position: relative;
-}
+
 
 /* line 7, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
 .our-info-area .single-info .info-caption::before {
@@ -3892,16 +3889,6 @@ hero-btn {
   top: -24px;
 }
 
-/*Modify before*/
-.our-info-area .single-info .info-caption1::before {
-  position: absolute;
-  content: "";
-  width: 70px;
-  height: 100px;
-  left: 0;
-  z-index: 0;
-  top: -24px;
-}
 
 /* line 18, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
 .our-info-area .single-info .info-caption h4 {
@@ -3916,18 +3903,7 @@ hero-btn {
   font-family: "Barlow", sans-serif;
 }
 
-/*Modify font h4*/
-.our-info-area .single-info .info-caption1 h4 {
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 0;
-  padding-left: 20px;
-  position: relative;
-  z-index: 2;
-  margin-bottom: 15px;
-  font-family: "Barlow", sans-serif;
-}
+
 
 /* line 29, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_our-info.scss */
 .our-info-area .single-info .info-caption p {
@@ -3941,17 +3917,6 @@ hero-btn {
   line-height: 1.4;
 }
 
-/*Modify font p*/
-.our-info-area .single-info .info-caption1 p {
-  color: #ffffff;
-  font-size: 20px;
-  margin-bottom: 0px;
-  display: block;
-  font-weight: 300;
-  padding-left: 20px;
-  line-height: 1.4;
-  margin-top: 50px;
-}
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_professional-service.scss */
 .professional-services {
