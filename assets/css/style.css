@@ -220,7 +220,7 @@ body {
 
 /* line 9, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 h1 {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: 'Mitr', sans-serif;   
   color: #2a2a2a;
   margin-top: 0px;
   font-style: normal;
@@ -232,7 +232,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: 'Mitr', sans-serif;   
   color: #fff;
   margin-top: 0px;
   font-style: normal;
@@ -6505,7 +6505,7 @@ hero-btn {
 /* line 16, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_contact.scss */
 .contact-info__icon i,
 .contact-info__icon span {
-  color: #8f9195;
+  color: #ffffff;
   font-size: 27px;
 }
 
@@ -6514,7 +6514,7 @@ hero-btn {
   font-size: 16px;
   margin-bottom: 0;
   font-size: 16px;
-  color: #2a2a2a;
+  color: #e9e9e9;
 }
 
 /* line 30, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_contact.scss */
@@ -6524,7 +6524,7 @@ hero-btn {
 
 /* line 36, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_contact.scss */
 .contact-info .media-body p {
-  color: #8a8a8a;
+  color: #929292;
 }
 
 /*=================== contact banner end ====================*/
