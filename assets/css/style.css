@@ -32,6 +32,10 @@
   background: #ffffff;
 }
 
+/*font pong*/
+.font-nav-foot{
+  font-family: 'Mitr', sans-serif;
+}
 /* line 37, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_color.scss */
 .gray-bg {
   background: #f5f5f5;
@@ -242,8 +246,8 @@ h6 {
 
 /* line 23, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 p {
-  font-family: "Barlow", sans-serif;
-  color: #10285d;
+  font-family: 'Mitr', sans-serif;
+  color: #499ce4;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 15px;
@@ -3291,7 +3295,7 @@ hero-btn {
   padding: 39px 19px;
   display: block;
   font-size: 16px;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: 'Mitr', sans-serif;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -3428,6 +3432,7 @@ hero-btn {
 /* line 174, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_nav a {
   font-size: 15px;
+  font-family: 'Mitr', sans-serif;
   padding: 7px 10px;
 }
 
@@ -4704,8 +4709,8 @@ hero-btn {
 /* line 43, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-tittle h4 {
   color: #fff;
-  font-family: "Barlow", sans-serif;
-  font-size: 18px;
+  font-family: 'Mitr', sans-serif;;
+  font-size: 25px;
   margin-bottom: 38px;
   font-weight: 500;
   text-transform: uppercase;
@@ -4738,10 +4743,11 @@ hero-btn {
 /* line 69, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-cap span {
   color: #499ce4;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   margin-bottom: 10px;
   display: block;
+  font-family: 'Mitr', sans-serif;
 }
 
 /* line 76, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_footer.scss */
