@@ -1,6 +1,6 @@
 $(function () {
     $("#MemberCre").hide();
-    $("#MemberDev").hide();
+    $("#MemberPro").hide();
     $("#MemberTra").hide();
 
     $("#Developer").click(function () {
