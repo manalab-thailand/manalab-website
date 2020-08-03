@@ -3202,8 +3202,8 @@ hero-btn {
 
 /* line 6, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 .header-area .main-header {
-  padding: 0 150px;
-  background-color: rgba(0, 0, 0);
+  
+  background-color: rgb(0, 0, 0);
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3227,7 +3227,7 @@ hero-btn {
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 500px) and (max-width: 767px) {
   /* line 6, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding: 0 70px;
@@ -3241,7 +3241,7 @@ hero-btn {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 500px) and (max-width: 700px) {
   /* line 6, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .main-header {
     padding-top: 16px;
@@ -3260,8 +3260,7 @@ hero-btn {
 @media (max-width: 575px) {
   /* line 6, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
   .header-area .main-header {
-    padding-top: 16px;
-    padding-bottom: 21px;
+   
   }
 }
 
@@ -3323,6 +3322,7 @@ hero-btn {
   top: 100%;
 }
 
+
 /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul ul.submenu {
   position: absolute;
@@ -3359,6 +3359,12 @@ hero-btn {
   color: #ff1313;
   background: none;
   padding-left: 13px !important;
+}
+
+.header-area .menu-wrapper .main-menu ul li.active {
+  color: #ff1313;
+  background: none;
+
 }
 
 /* line 125, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_headerMenu.scss */
