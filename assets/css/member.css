@@ -1,6 +1,4 @@
-    body{
 
-    }    
     .Member-padding {
     padding-top: 120px;
     padding-bottom: 40px;
@@ -35,6 +33,13 @@
     }
 
     @media (max-width: 575px) {
+    .title {
+        font-size: 50px;
+    }
+    
+    .titleH {
+        font-size: 36px;
+    }
     /* line 789, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
     .Member-padding {
         padding-top: 100px;
@@ -109,7 +114,7 @@
     }
 
     .titleH {
-    font-size: 72px;
+    font-size: 50px;
     background: -webkit-linear-gradient(#499ce4, #20dddb);
     -webkit-text-fill-color: transparent;
     background-clip: text;
