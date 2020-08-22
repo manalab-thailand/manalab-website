@@ -254,6 +254,14 @@ p {
   font-weight: normal;
 }
 
+li {
+  font-family: 'Mitr', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
 /* line 34, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 .bg-img-1 {
   background-image: url(../img/slider/slider-img-1.jpg);
