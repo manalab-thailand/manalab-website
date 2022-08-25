@@ -12,7 +12,7 @@ $(function () {
 
     $("#Gen2Developer").click(function () {
         $("#MemberCre , #MemberTra , #MemberPro, #MemberDev").fadeOut("slow" ,function () {
-            $("#MemberDev2").fadeIn(1000);
+            $("#MemberDev2").fadeIn(2500);
         });
     });
 
