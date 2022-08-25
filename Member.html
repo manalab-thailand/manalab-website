@@ -87,13 +87,15 @@
                     </div>
                 </div>
                 <div class="row Position mb-4">
-                    <div class="col-sm-">
-                        <button type="button" class="btnm btn-primary mr-2 mb-4" id="Gen2Developer">Developer
-                            Gen2</button>
-                    </div>
-                    <div class="col-sm-">
-                        <button type="button" class="btnm btn-primary mr-2 mb-4" id="Developer">Developer</button>
-                    </div>
+                    <div class="dropdown">
+                        <button class="btnm btn-primary mr-2 mb-4 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Developer
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" id="Developer" href="#">Gen1</a>
+                          <a class="dropdown-item" id="Gen2Developer" href="#">Gen2</a>
+                        </div>
+                      </div>
                     <div class="col-sm-">
                         <button type="button" class="btnm btn-primary mr-2 mb-4" id="Training">Training</button>
                     </div>
@@ -146,9 +148,10 @@
                     <div class="row">
                         <div class="cl-xl-12 col-lg-12 col-md-12">
                             <div class="text-center mb-5">
-                                <h1 class="titleH"><b>DEVELOPER</b></h1>
+                                <h1 class="titleH"><b>GENERATION1 DEVELOPER</b></h1>
                             </div>
                         </div>
+
                         <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                             <div class="our-team">
                                 <div class="picture">
@@ -545,9 +548,9 @@
             </div>
 
             <script>
-                let memberName = ["Ammar Nuwanna","Anuwat Bunsong","Bukore Kalong","Kittipan Sankoh","Motana Wattanachant","Nonpawit Pohthongkham","Tanakan Khongfai","Yotsarawoot Chaichana"]
+                let memberName = ["Ammar Nuwanna", "Anuwat Bunsong", "Bukore Kalong", "Kittipan Sankoh", "Motana Wattanachant", "Nonpawit Pohthongkham", "Tanakan Khongfai", "Yotsarawoot Chaichana"]
                 let title = []
-                let photoPath = ["Ammar","Krit","Bu","Nonkit","Jan","Nonp","Bank","Pie"]
+                let photoPath = ["Ammar", "Krit", "Bu", "Nonkit", "Jan", "Nonp", "Bank", "Pie"]
                 let text = "";
 
                 for (let i = 0; i < memberName.length; i++) {
