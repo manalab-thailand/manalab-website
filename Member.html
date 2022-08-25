@@ -88,6 +88,10 @@
                 </div>
                 <div class="row Position mb-4">
                     <div class="col-sm-">
+                        <button type="button" class="btnm btn-primary mr-2 mb-4" id="Gen2Developer">Developer
+                            Gen2</button>
+                    </div>
+                    <div class="col-sm-">
                         <button type="button" class="btnm btn-primary mr-2 mb-4" id="Developer">Developer</button>
                     </div>
                     <div class="col-sm-">
@@ -313,6 +317,19 @@
                     </div>
                 </div>
             </div>
+            <div id="MemberDev2">
+                <div class="container">
+                    <div class="cl-xl-12 col-lg-12 col-md-12">
+                        <div class="text-center mb-5">
+                            <h1 class="titleH"><b>GENERATION2 DEVELOPER</b></h1>
+                        </div>
+                    </div>
+                    <div class="row" id="loopMember">
+                        <!-- javaScript loop for member gen 2 -->
+
+                    </div>
+                </div>
+            </div>
             <div id="MemberCre">
                 <div class="container">
                     <div class="row">
@@ -526,6 +543,30 @@
             <div id="back-top">
                 <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
             </div>
+
+            <script>
+                let memberName = ["Developer1", "Developer2","Developer3","Developer4","Developer5","Developer6","Developer7","Developer8"]
+                let title = []
+                let text = "";
+
+                for (let i = 0; i < memberName.length; i++) {
+                    text += `
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="assets/img/member-photo/`+ memberName[i] + `.jpg">
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">`+ memberName[i] + `</h3>
+                                    <h4 class="title">Developer</h4>
+                                </div>
+                            </div>
+                        </div>
+                            `;
+                }
+
+                document.getElementById("loopMember").innerHTML = text;
+            </script>
             <!-- JS here -->
             <!-- All JS Custom Plugins Link Here here -->
             <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -560,4 +601,5 @@
             <script src="./assets/js/main.js"></script>
 
             <script src="./assets/js/member.js"></script>
+
     </body>
