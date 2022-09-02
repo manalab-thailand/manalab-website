@@ -106,6 +106,22 @@
                     <div class="col-sm-">
                         <button type="button" class="btnm btn-primary mr-2 mb-4" id="Professor">Advisor</button>
                     </div>
+                    <div class="col-sm-">
+                        <button type="button" class="btnm btn-primary mr-2 mb-4" id="Other">Other</button>
+                    </div>
+                </div>
+            </div>
+            <div id="MemberOther">
+                <div class="container">
+                    <div class="cl-xl-12 col-lg-12 col-md-12">
+                        <div class="text-center mb-5">
+                            <h1 class="titleH"><b>OTHER</b></h1>
+                        </div>
+                    </div>
+                    <div class="row" id="loopMemberOther">
+                        <!-- javaScript loop for OTHER -->
+
+                    </div>
                 </div>
             </div>
             <div id="MemberPro">
@@ -328,7 +344,7 @@
                         </div>
                     </div>
                     <div class="row" id="loopMember">
-                        <!-- javaScript loop for member gen 2 -->
+                        <!-- javaScript loop for GEN2DEV-->
 
                     </div>
                 </div>
@@ -548,10 +564,16 @@
             </div>
 
             <script>
+                // developer variable
                 let memberName = ["Ammar Nuwanna", "Anuwat Bunsong", "Bukore Kalong", "Kittipan Sankoh", "Motana Wattanachant", "Nonpawit Pohthongkham", "Tanakan Khongfai", "Yotsarawoot Chaichana"]
-                let title = []
                 let photoPath = ["Ammar", "Krit", "Bu", "Nonkit", "Jan", "Nonp", "Bank", "Pie"]
+
+                //other member variables
+                let otherMemberName = ["Waritsara Kayankit", "Puntira Siriluk"]
+                let title = ["Quality Assurance", "UX/UI Designer"]
+                let otherPhotoPath = ["Ya", "Jaa"]
                 let text = "";
+                let textOther = "";
 
                 for (let i = 0; i < memberName.length; i++) {
                     text += `
@@ -568,8 +590,25 @@
                         </div>
                             `;
                 }
-
                 document.getElementById("loopMember").innerHTML = text;
+
+                for (let i = 0; i < otherMemberName.length; i++) {
+                    textOther += `
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                            <div class="our-team">
+                                <div class="picture">
+                                    <img class="img-fluid" src="assets/img/member-photo/`+ otherPhotoPath[i] + `.jpg">
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="name">`+ otherMemberName[i] + `</h3>
+                                    <h4 class="title">`+ title[i]+`</h4>
+                                </div>
+                            </div>
+                        </div>
+                            `;
+                }
+                document.getElementById("loopMemberOther").innerHTML = textOther;
+                
             </script>
             <!-- JS here -->
             <!-- All JS Custom Plugins Link Here here -->
