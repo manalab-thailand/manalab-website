@@ -88,14 +88,15 @@
                 </div>
                 <div class="row Position mb-4">
                     <div class="dropdown">
-                        <button class="btnm btn-primary mr-2 mb-4 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Developer
+                        <button class="btnm btn-primary mr-2 mb-4 dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Developer
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                          <a class="dropdown-item" id="Developer" href="#">Gen1</a>
-                          <a class="dropdown-item" id="Gen2Developer" href="#">Gen2</a>
+                            <a class="dropdown-item" id="Developer" href="#">Gen1</a>
+                            <a class="dropdown-item" id="Gen2Developer" href="#">Gen2</a>
                         </div>
-                      </div>
+                    </div>
                     <div class="col-sm-">
                         <button type="button" class="btnm btn-primary mr-2 mb-4" id="Training">Training</button>
                     </div>
@@ -567,6 +568,7 @@
                 // developer variable
                 let memberName = ["Ammar Nuwanna", "Anuwat Bunsong", "Bukore Kalong", "Kittipan Sankoh", "Motana Wattanachant", "Nonpawit Pohthongkham", "Tanakan Khongfai", "Yotsarawoot Chaichana"]
                 let photoPath = ["Ammar", "Krit", "Bu", "Nonkit", "Jan", "Nonp", "Bank", "Pie"]
+                let facebookPath = ["ammar.nuwanna", "profile.php?id=100001857918037", "Korei.iiii", "yourkittipan", "motana.wattanachant", "non.nonpravit", "profile.php?id=100009625571692", "yotsarawoot.chaichana"]
 
                 //other member variables
                 let otherMemberName = ["Waritsara Kayankit", "Puntira Siriluk"]
@@ -580,7 +582,7 @@
                         <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                             <div class="our-team">
                                 <div class="picture">
-                                    <img class="img-fluid" src="assets/img/member-photo/`+ photoPath[i] + `.jpg">
+                                    <img class="img-fluid" src="assets/img/member-photo/`+ photoPath[i] + `.jpg" onclick="location.href='https://www.facebook.com/`+facebookPath[i] +`/'">
                                 </div>
                                 <div class="team-content">
                                     <h3 class="name">`+ memberName[i] + `</h3>
@@ -601,14 +603,14 @@
                                 </div>
                                 <div class="team-content">
                                     <h3 class="name">`+ otherMemberName[i] + `</h3>
-                                    <h4 class="title">`+ title[i]+`</h4>
+                                    <h4 class="title">`+ title[i] + `</h4>
                                 </div>
                             </div>
                         </div>
                             `;
                 }
                 document.getElementById("loopMemberOther").innerHTML = textOther;
-                
+
             </script>
             <!-- JS here -->
             <!-- All JS Custom Plugins Link Here here -->
